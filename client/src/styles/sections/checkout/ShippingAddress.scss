@@ -79,7 +79,7 @@
       height: 66px;
       width: 250px;
       border-radius: 4px;
-      background-color: #cd3b37;
+      background-color: #5acd37;
       color: #fff;
       display: flex;
       align-items: center;
@@ -91,11 +91,11 @@
       text-align: center;
       position: relative;
       cursor: pointer;
-      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
-        box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+        -webkit-box-shadow 0.2s ease-in-out;
 
       &:hover {
-        background-color: #9e312d;
+        background-color: #47be31;
       }
     }
   }
