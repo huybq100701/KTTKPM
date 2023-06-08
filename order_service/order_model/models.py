@@ -29,8 +29,8 @@ class OrderItem(models.Model):
     quantity = models.IntegerField(default=0)
 
     def __str__(self):
-        if(self.itemType == 'apparel'):
-            url = 'http://127.0.0.1:8001/apparels/' + self.product_id
+        if(self.itemType == 'jewelry'):
+            url = 'http://127.0.0.1:8001/jewelrys/' + self.product_id
         if(self.itemType == 'book'):
             url = 'http://127.0.0.1:8011/books/' + self.product_id
         if(self.itemType == 'shoe'):
@@ -44,7 +44,7 @@ class OrderItem(models.Model):
         return f'{name}'
     
     # def itemURL(self):
-    #     if(self.itemType == 'apparel'):
-    #         url = 'http://127.0.0.1:8001/apparels/' + self.product_id
+    #     if(self.itemType == 'jewelry'):
+    #         url = 'http://127.0.0.1:8001/jewelrys/' + self.product_id
         
     #     return url
